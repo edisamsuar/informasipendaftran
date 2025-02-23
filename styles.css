@@ -1,0 +1,73 @@
+/* Styling untuk body dengan background gambar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT__amr2GcExss1h6gSrbXwiJfCPGQIvzaWBg&s'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container utama */
+.main-container {
+    background-color: rgba(141, 132, 0, 0.336); /* Warna container dengan transparansi */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Container untuk teks "Pendaftaran Gelombang Pertama Telah Ditutup" */
+.closed-container {
+    background-color: #346605a8; /* Warna merah */
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Container untuk teks "Pendaftaran Gelombang Pertama Telah Ditutup" */
+.closed-container2 {
+    background-color: #eccd7857; /* Warna merah */
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Styling untuk teks pesan */
+.message {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Container untuk hitung mundur */
+.countdown-container {
+    background-color: #db3434; /* Warna biru */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling untuk hitung mundur */
+.countdown {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Styling untuk teks kecil di bawah hitung mundur */
+.note {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
